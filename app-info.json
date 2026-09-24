@@ -12,6 +12,14 @@
     "web",
     "ios"
   ],
+  "technologyStack": {
+    "mobile": ["Flutter", "Dart", "MediaKit"],
+    "admin": ["Vue 3", "TypeScript", "Vite", "Element Plus", "CoolAdmin Vue"],
+    "backend": ["Node.js", "TypeScript", "CoolAdmin Midway", "Koa", "TypeORM"],
+    "database": ["MySQL"],
+    "contentIngestion": ["Apple CMS JSON/XML", "fast-xml-parser"],
+    "android": ["EMAS Push", "Android Gradle", "GitHub Actions"]
+  },
   "version": "2.0.0",
   "buildNumber": 2,
   "releaseTag": "v2.0.0+2",

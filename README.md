@@ -28,7 +28,31 @@ Android 安装步骤：
   <img src="./assets/screenshots/2.png" alt="碳元素视频搜索页" width="31%" />
 </p>
 
-更多真实界面截图见 [assets/screenshots](./assets/screenshots)。
+<p align="center">
+  <img src="./assets/screenshots/3.png" alt="碳元素视频界面预览 3" width="23%" />
+  <img src="./assets/screenshots/4.png" alt="碳元素视频界面预览 4" width="23%" />
+  <img src="./assets/screenshots/5.png" alt="碳元素视频界面预览 5" width="23%" />
+  <img src="./assets/screenshots/6.png" alt="碳元素视频界面预览 6" width="23%" />
+</p>
+
+<p align="center">
+  <img src="./assets/screenshots/7.png" alt="碳元素视频界面预览 7" width="31%" />
+  <img src="./assets/screenshots/8.png" alt="碳元素视频界面预览 8" width="31%" />
+  <img src="./assets/screenshots/9.png" alt="碳元素视频界面预览 9" width="31%" />
+</p>
+
+## 技术架构
+
+| 模块 | 技术方案 | 说明 |
+| --- | --- | --- |
+| Android App | Flutter、Dart、Material、MediaKit | 内容浏览、播放器、弹幕、评论、下载、会员、任务、二维码与本地缓存。 |
+| 运营后台 | Vue 3、TypeScript、Vite、Element Plus、Pinia、ECharts | 基于 CoolAdmin Vue 构建，负责内容、用户、会员、运营和采集任务管理。 |
+| 服务端 | Node.js、TypeScript、CoolAdmin Midway、Koa、TypeORM | 提供 App 接口、运营接口、任务调度、权限与业务服务。 |
+| 数据层 | MySQL、TypeORM | 影片、剧集、线路、用户互动、会员、金豆、邀请和运营配置数据。 |
+| 内容采集 | 苹果 CMS JSON/XML、fast-xml-parser | 多资源站分类同步、内容采集、分类映射、影片合并和播放线路管理。 |
+| Android 能力 | EMAS 推送、GitHub Actions、Android Gradle | 设备推送、签名构建、版本化 APK 和公开 Release 自动发布。 |
+
+当前对外发布的是 Android 客户端；Web、iOS 等终端仍处于产品架构规划阶段，尚未作为公开版本提供。
 
 ## 应用能力
 
