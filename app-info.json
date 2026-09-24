@@ -3,6 +3,7 @@
   "appName": "碳元素视频",
   "appNameEn": "Carbon Element Video",
   "packageName": "com.selfdeveloped.Cview",
+  "iconUrl": "https://raw.githubusercontent.com/520boys/carbon-element-video-release/main/assets/app_icon.png",
   "productPositioning": "全平台影视内容服务",
   "currentClientPlatforms": ["android"],
   "plannedClientPlatforms": ["web", "ios"],
@@ -18,6 +19,11 @@
   "websiteUrl": "",
   "privacyPolicyUrl": "",
   "supportEmail": "",
+  "previewImages": [
+    "https://raw.githubusercontent.com/520boys/carbon-element-video-release/main/assets/screenshots/home.png",
+    "https://raw.githubusercontent.com/520boys/carbon-element-video-release/main/assets/screenshots/1.png",
+    "https://raw.githubusercontent.com/520boys/carbon-element-video-release/main/assets/screenshots/2.png"
+  ],
   "features": [
     "分类筛选与影视搜索",
     "多线路播放与选集",

@@ -1,5 +1,9 @@
 # 碳元素视频 | 全平台影视内容服务
 
+<p align="center">
+  <img src="./assets/app_icon.png" alt="碳元素视频应用图标" width="128" />
+</p>
+
 碳元素视频（Carbon Element Video）是面向多终端的影视内容浏览、播放、追剧与互动服务。产品架构由移动客户端、运营后台、内容采集和服务端组成，并为后续 Web、iOS 与更多终端形态预留统一内容、账号、会员和运营能力。
 
 当前公开发布的客户端为 **Android**。这里是**公开发布信息仓库**：用于展示版本说明、安装包下载、更新日志、隐私说明和应用资料；应用源码、服务端代码、数据库及任何密钥均不在此仓库公开。
@@ -15,6 +19,16 @@ Android 安装步骤：
 3. 打开“碳元素视频”，按页面提示完成首次配置。
 
 请仅从本仓库的 Release 页面下载官方安装包。安装前可在 Release 中比对 SHA-256 校验值。
+
+## 应用预览
+
+<p align="center">
+  <img src="./assets/screenshots/home.png" alt="碳元素视频首页" width="31%" />
+  <img src="./assets/screenshots/1.png" alt="碳元素视频个人中心" width="31%" />
+  <img src="./assets/screenshots/2.png" alt="碳元素视频搜索页" width="31%" />
+</p>
+
+更多真实界面截图见 [assets/screenshots](./assets/screenshots)。
 
 ## 应用能力
 
@@ -59,3 +73,8 @@ Android 安装步骤：
 ## 反馈与联系
 
 应用内可通过“我的 -> 意见反馈”提交问题、建议或片源反馈。公开联系邮箱、官网和隐私政策地址应在发布前写入 [app-info.json](./app-info.json) 的对应字段。
+
+## 联系我
+- 邮箱：[uglygirlvip@gmail.com](mailto:uglygirlvip@gmail.com)
+- 官网：[https://airesx.com](https://airesx.com)
+- 隐私政策：[https://airesx.com/privacy](https://airesx.com/privacy)

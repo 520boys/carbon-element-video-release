@@ -9,6 +9,9 @@
     <meta property="og:title" content="碳元素视频 - 全平台影视内容服务" />
     <meta property="og:description" content="分类筛选、多线路播放、追剧互动、会员任务与离线下载。" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/520boys/carbon-element-video-release/main/assets/app_icon.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="./assets/app_icon.png" />
     <title>碳元素视频 | 全平台影视内容服务</title>
     <style>
       :root { color-scheme: dark; font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; background: #080d16; color: #eef4ff; }
@@ -16,7 +19,7 @@
       body { margin: 0; background: #080d16; }
       main { width: min(960px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0 56px; }
       .brand { display: inline-flex; align-items: center; gap: 12px; color: #63a9ff; font-weight: 800; font-size: 18px; }
-      .mark { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid #4388e8; border-radius: 10px; background: #102743; color: #fff; }
+      .brand img { width: 42px; height: 42px; border-radius: 11px; object-fit: cover; }
       h1 { max-width: 720px; margin: 28px 0 14px; font-size: clamp(34px, 7vw, 64px); line-height: 1.12; letter-spacing: 0; }
       .lead { max-width: 680px; color: #b7c6dc; font-size: 17px; line-height: 1.8; }
       .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 56px; }
@@ -26,19 +29,34 @@
       section { border-top: 1px solid #243147; padding: 30px 0; }
       h2 { margin: 0 0 16px; font-size: 22px; }
       ul { display: grid; gap: 10px; padding-left: 20px; color: #c4d0e0; line-height: 1.6; }
+      .featured-shot { display: block; width: min(100%, 390px); margin: 0 auto; border-radius: 14px; border: 1px solid #273650; }
+      .gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+      .gallery figure { margin: 0; }
+      .gallery img { display: block; width: 100%; border-radius: 10px; border: 1px solid #273650; }
+      .gallery figcaption { padding-top: 8px; color: #9bacc4; font-size: 14px; text-align: center; }
       .notice { color: #8292aa; font-size: 14px; line-height: 1.7; }
       footer { padding-top: 20px; color: #718199; font-size: 13px; }
+      @media (max-width: 640px) { main { width: min(100% - 28px, 960px); padding-top: 40px; } .gallery { gap: 8px; } .gallery figcaption { font-size: 12px; } }
     </style>
   </head>
   <body>
     <main>
-      <div class="brand"><span class="mark">C</span> 碳元素视频</div>
+      <div class="brand"><img src="./assets/app_icon.png" alt="碳元素视频图标" /> 碳元素视频</div>
       <h1>看见世界的每一面</h1>
       <p class="lead">碳元素视频是全平台影视内容服务，统一连接内容浏览、播放、追剧、互动与运营能力。当前已发布 Android 客户端，后续终端将复用同一套账号、会员与内容体系。</p>
       <div class="actions">
-        <a class="button" href="../../releases">下载最新 Android 安装包</a>
-        <a class="button secondary" href="./CHANGELOG.md">查看更新日志</a>
+        <a class="button" href="https://github.com/520boys/carbon-element-video-release/releases">下载最新 Android 安装包</a>
+        <a class="button secondary" href="https://github.com/520boys/carbon-element-video-release/blob/main/CHANGELOG.md">查看更新日志</a>
       </div>
+      <img class="featured-shot" src="./assets/screenshots/home.png" alt="碳元素视频首页界面" />
+      <section>
+        <h2>真实界面预览</h2>
+        <div class="gallery">
+          <figure><img src="./assets/screenshots/home.png" alt="首页" /><figcaption>首页与内容推荐</figcaption></figure>
+          <figure><img src="./assets/screenshots/1.png" alt="个人中心" /><figcaption>个人中心与会员权益</figcaption></figure>
+          <figure><img src="./assets/screenshots/2.png" alt="搜索" /><figcaption>搜索与内容发现</figcaption></figure>
+        </div>
+      </section>
       <section>
         <h2>核心体验</h2>
         <ul>
