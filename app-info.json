@@ -4,15 +4,20 @@
   "appNameEn": "Carbon Element Video",
   "packageName": "com.selfdeveloped.Cview",
   "productPositioning": "全平台影视内容服务",
-  "currentClientPlatforms": ["android"],
-  "plannedClientPlatforms": ["web", "ios"],
+  "currentClientPlatforms": [
+    "android"
+  ],
+  "plannedClientPlatforms": [
+    "web",
+    "ios"
+  ],
   "version": "2.0.0",
   "buildNumber": 2,
   "releaseTag": "v2.0.0+2",
-  "publishedAt": "",
-  "releaseNotesUrl": "",
-  "downloadUrl": "",
-  "sha256": "",
+  "publishedAt": "2026-09-24T17:54:15Z",
+  "releaseNotesUrl": "https://github.com/520boys/carbon-element-video-release/releases/tag/v2.0.0+2",
+  "downloadUrl": "https://github.com/520boys/carbon-element-video-release/releases/download/v2.0.0+2/carbon-element-video-v2.0.0+2.apk",
+  "sha256": "d44727de594f9b199804753f6e086b1a2b96f8562ab6ae984dae075730306131",
   "forceUpdate": false,
   "minSupportedVersion": "",
   "websiteUrl": "",
