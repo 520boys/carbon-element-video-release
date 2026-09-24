@@ -1,5 +1,7 @@
 # 碳元素视频 | 全平台影视内容服务
 
+[English](./README.en.md) | [隐私说明](./PRIVACY.md) | [Privacy](./PRIVACY.en.md) | [发布流程](./PUBLISHING.md) | [Publishing](./PUBLISHING.en.md)
+
 <p align="center">
   <img src="./assets/app_icon.png" alt="碳元素视频应用图标" width="128" />
 </p>
