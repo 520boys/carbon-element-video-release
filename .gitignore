@@ -1,0 +1,7 @@
+# GitHub Release assets are uploaded through the Releases page or gh release.
+# Do not commit large APK/AAB binaries to this repository.
+*.apk
+*.aab
+
+# Local overrides for links and contact addresses.
+app-info.local.json

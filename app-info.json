@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "appName": "碳元素视频",
+  "appNameEn": "Carbon Element Video",
+  "packageName": "com.selfdeveloped.Cview",
+  "productPositioning": "全平台影视内容服务",
+  "currentClientPlatforms": ["android"],
+  "plannedClientPlatforms": ["web", "ios"],
+  "version": "2.0.0",
+  "buildNumber": 2,
+  "releaseTag": "v2.0.0+2",
+  "publishedAt": "",
+  "releaseNotesUrl": "",
+  "downloadUrl": "",
+  "sha256": "",
+  "forceUpdate": false,
+  "minSupportedVersion": "",
+  "websiteUrl": "",
+  "privacyPolicyUrl": "",
+  "supportEmail": "",
+  "features": [
+    "分类筛选与影视搜索",
+    "多线路播放与选集",
+    "追剧、收藏和观看历史",
+    "弹幕、评论与互动",
+    "会员、任务、金豆与兑换",
+    "离线下载与缓存管理",
+    "邀请增长与用户称号"
+  ],
+  "keywords": [
+    "碳元素视频",
+    "Carbon Element Video",
+    "Android 视频播放器",
+    "影视 App",
+    "电影播放器",
+    "电视剧追剧",
+    "影视搜索",
+    "离线下载",
+    "弹幕视频"
+  ]
+}
